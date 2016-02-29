@@ -3,7 +3,7 @@ defmodule PlugUtm.Mixfile do
 
   def project do
     [app: :plug_utm,
-     description: "saves UTM tracking parameters to cookies",
+     description: "UTM tracking parameters to cookies",
      package: package,
      version: "0.0.1",
      elixir: "~> 1.2",
@@ -25,7 +25,7 @@ defmodule PlugUtm.Mixfile do
 
   defp package do
     [
-      contributors: ["Hugo Duksis"],
+      maintainers: ["Hugo Duksis"],
       licenses: ["MIT"],
       links: %{github: "https://github.com/honeypotio/plug_utm"},
       files: ~w(lib LICENSE mix.exs README.md)
